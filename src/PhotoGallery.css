@@ -1,0 +1,95 @@
+.photo-gallery {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .add-photo-form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .add-photo-form input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .add-photo-form button {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .photo-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .photo-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .photo-card img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .photo-card p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .button-group {
+    margin-top: 10px;
+  }
+  
+  .button-group button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    font-size: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .edit-form {
+    margin-bottom: 10px;
+  }
+  
+  .edit-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .edit-form button {
+    padding: 5px 10px;
+    font-size: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .edit-form button:last-child {
+    margin-left: 5px;
+    background-color: #dc3545;
+  }
+  
